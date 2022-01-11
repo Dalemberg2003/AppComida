@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/comida.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor-header">
+            <div class="icono">
+                <span id="icono">&#9776;</span>
+            </div>   
+            <div class="carrito">
+                <a href="#" id="carrito"><img src="../assets/img/carrito.svg" alt="carrito"></a>
+            </div> 
+        </div>
+        <div class="cerrar-sesion" id="accion">
+            <a href="#" id="cerrar"><i class="far fa-times-circle"></i> Cerrar Sesión</a>
+        </div>
+        <div class="texto">
+            Delicious <br>
+            food for you
+        </div>
+        <div class="contenedor-buscar">
+            <label for="buscar"><i class="fas fa-search"></i></label>
+            <input type="search" name="buscar" id="buscar" placeholder="Search">
+        </div>
+        <div class="contenedor-opciones">
+            <a href="#" class="active" id="opcion1">Foods</a>
+            <a href="#" id="opcion2">Drinks</a>
+            <a href="#" id="opcion3">Snacks</a>
+        </div>
+        <div class="contenedor-galeria"> 
+            <div class="seemore">
+                <a href="#">See more</a>
+            </div>
+            <!-- galeria -->
+            <div class="carta" id="carta">
+                <img src="../assets/img/comidas/hamburguesa.jpg" alt="hamburguesa">
+                <p>
+                    Hamburguesa con papas
+                </p>
+                <p class="precio">$5,50</p>
+            </div>
+        </div>
+        <div class="contenedor-botones">
+           <a href="#" class="active" id="btn1"><i class="fas fa-home"></i></a>
+           <a href="#" id="btn2"><i class="far fa-heart"></i></a>
+           <a href="#" id="btn3"><i class="far fa-user"></i></a>
+           <a href="#" id="btn4"><i class="fas fa-history"></i></a>
+        </div>
+    </div>
+
+    <script src="../js/comida.js"></script>
+</body>
+</html>
